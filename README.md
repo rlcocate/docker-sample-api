@@ -9,7 +9,7 @@ Criada com o Dockerfile.
 - '.' ao final específica o diretório onde está o Dockerfile (no caso a Raiz do API) 
 
 # Comando para executar a imagem gerada
-» docker conteiner run --publish 8080:3000 --detach --name api dockerapi:1.0
+» docker conteiner run --publish 8080:3000 --detach --name api docker-api:1.0
 
 - <strong>--publish:</strong> cuida do redirecionamento da porta de execução.
 - <strong>--detach:</strong> define ao Docker que deverá executar este conteiner em backgroud par anão travar o terminal que acabou de ser executado.
